@@ -1,0 +1,226 @@
+
+.header {
+    background: url('../img/destaque.jpeg') no-repeat;
+    background-size: cover;
+    padding-top: 32px;
+}
+.header .nav-bar{
+    text-align: center;
+}
+
+.li-nav{
+    display: inline-block;
+    margin: 0 15px 35px 0;
+}
+
+.a-nav{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    transition: background-color 0.5s;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.a-nav:hover{
+    background-color: #48A3A6;
+}
+
+.header .banner{
+    text-align: center;
+    padding: 0 0 44px 0;
+}
+
+.header .banner .text-banner{
+    text-shadow: 4px 4px 10px black;
+}
+
+.header .banner .text-banner h1{
+    font-size: 5em;
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.header .banner .text-banner h2{
+    font-size: 3.6em;
+    color: chartreuse;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+.header .banner .button-banner a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 25px 50px;
+    margin: 30px;
+    box-shadow: 1px 1px 5px black;
+    font-weight: 600;
+    background-color: #48A3A6;
+}
+.header .banner .button-banner a:hover{
+    background-color: turquoise;
+}
+
+
+.sobre-painel{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sobre-painel .title-painel{
+    font-size: 2.2em;
+}
+
+.sobre-painel .subtitle-painel{
+    font-size: 1.6em;
+    margin-bottom: 15px;
+}
+
+.sobre-painel .description-painel{
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 40px;
+}
+
+
+.palestrantes-painel{
+    background-color: tomato;
+    padding-top: 40px;
+}
+.palestrantes-painel .palestrantes-header{
+    text-align: center;
+    color: white;
+}
+.palestrantes-painel .palestrantes-header h1{
+  margin-bottom: 20px;
+  font-size: 1.8em;
+  font-weight: 600;
+}
+.palestrantes-painel .palestrantes-header h3{
+    margin-bottom: 20px;
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+
+.palestrantes-painel .card{
+
+    text-align: center;
+}
+
+.palestrantes-painel .palestrantes {
+
+    display: inline-block;
+    width: 250px;
+    background-color: white;
+    margin: 0 16px 32px 0;
+    padding: 18px;
+    border-radius: 10px;
+    vertical-align: top;
+}
+.palestrantes-painel img {
+
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+}
+.palestrantes-painel .palestrante-name {
+
+    padding-top: 10px;
+}
+
+.palestrantes-painel .palestrante-bio {
+
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+.palestrantes-painel .palestrante-speach {
+
+    margin-top: 16px;
+    padding-top: 8px;
+    font-size: 16px;
+}
+.formulario {
+
+    margin-top: 32px;
+}
+
+.formulario .title-text {
+    font-size: 32px;
+    color: #EF7247;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.field {
+    margin-bottom: 16px;
+}
+
+.field label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.field .field-input {
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #48A2A6; 
+} 
+.button {
+
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 50px;
+    background-color: #48A2A6;
+    border-radius: 8px;
+}
+.button-form {
+    text-align: center;
+}
+
+/*Media Query*/
+
+@media only screen and (max-width: 600px) {
+    .header .banner .text-banner h1{
+        font-size: 3em;
+    }
+    .header .banner .text-banner h2{
+        font-size: 2.6em;
+    }
+    .sobre-painel{
+        text-align: center;
+        margin: 40px;
+    }
+    .palestrantes-painel .palestrantes-header h3{
+        margin: 40px;
+        font-size: 1em;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    .header .banner .text-banner h1{
+        font-size: 2.6em;
+    }
+    .header .banner .text-banner h2{
+        font-size: 2.2em;
+    }
+    
+}
